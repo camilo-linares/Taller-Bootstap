@@ -1,0 +1,58 @@
+body{
+    font-family: sans-serif, Arial;
+    background-image: url(images/thestrokes.jpeg);
+}
+
+btn-primary{
+    background-color: #000000;
+    color: #ffffff;
+}
+
+h1{
+    color: #ffffff;
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    margin-top: 100px;
+}
+
+#titulo{
+    color: #ffffff;
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    margin-top: 100px;
+}
+
+#paragraph{
+    color: #ffffff;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 100px;
+}
+
+
+.modal-content {
+    background-color: black;
+    color: white;
+}
+
+.modal-header{
+    color: white;
+}
+
+.modal-body{
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.modal-title {
+    color: black;
+}
+
+@media (max-width: 576px){.modal-dialog.modal-dialog-slideout {width: 80%}}
+.modal-dialog-slideout {min-height: 100%; margin: 0 auto 0 0 ;background: #fff;}
+.modal.fade .modal-dialog.modal-dialog-slideout {-webkit-transform: translate(-100%,0);transform: translate(-100%,0);}
+.modal.fade.show .modal-dialog.modal-dialog-slideout {-webkit-transform: translate(0,0);transform: translate(0,0);flex-flow: column;}
+.modal-dialog-slideout .modal-content{border: 0;}
